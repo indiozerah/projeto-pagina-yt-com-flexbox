@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+.container-header {
+
+    display: flex;
+    width: auto;
+    height: 56px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* Logo Menu e Logo Youtube - Esquerda */
+.menulogo {
+    display: flex;
+    width: 146px;
+    height: 24px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#logo-youtube {
+    width: 90px;
+    height: 20px;
+}
+
+/* Barra de pesquisa e Lupa - Center */
+.searcharea {
+    width: 404px;
+    height: 40px;
+    display: flex;
+}
+
+.search-area {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+}
+
+.quadrado-search {
+    width: 57px;
+    height: 38px;
+    background-color: #F8F8F8;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-right: 1px;
+    border-style: solid;
+    border-color: #CCCCCC;
+    
+}
+
+.icon-search {
+    margin-left: 25%;
+    margin-top: 12.5%;
+}
+
+/* Icones Sino, Camera e Avatar - Direta */
+
+.icones-direita {
+    display: flex;
+    width: 130px;
+    height: 34px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sino-avatar {
+    width: 24px;
+    height: 24px;
+}
+
+/* Corpo Site */
+
+.body-video {
+    display: flex;
+    flex-direction: column;
+    width: 1030px;
+    height: 100vh;
+    
+}
+
+.video-principal {
+    display: flex;
+    background-color: black;
+    width: 952px;
+    height: 537px;
+    margin-left: 75px;
+    margin-top: 28px;
+}
+
+.titulo-video {
+    width: 871px;
+    height: 23px;
+    margin-top: 16px;
+    margin-left: 75px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+/* Informações do Canal */
+
+.informacoes-canal {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 75px;
+    width: 902px;
+    height: 42px;
+    ;
+}
+
+.channel-name {
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+#dio {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+#inscritos {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #515151;
+}
+
+.inscrevase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 159px;
+    height: 40px;
+    background-color: red;
+}
+
+.like-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+.deslike-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+.share-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+.download-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* Visualizações do vídeo */
+
+.visualizacoes {
+    
+    height: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 75px;
+}
+
+/* Descrição do vídeo */
+
+.video-descricao {
+    width: 510px;
+    height: 64px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #515151;
+    margin-left: 37px;
+}
+
+/* Listagem Videos */
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 1052px;
+}
+
+#thumb-01 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -744px;
+}
+
+.unimed {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+#nome-do-canal {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #515151;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#vizualizacoes {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #515151;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#thumb-02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.scrum {
+    display: flex;
+    flex-direction: column;
+    width: 325.6px;
+    height: 90px;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    
+}
+
+#thumb-03 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.machine {
+    display: flex;
+    flex-direction: column;
+    width: 325.6px;
+    height: 90px;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+#thumb-04 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.global {
+    display: flex;
+    flex-direction: column;
+    width: 325.6px;
+    height: 90px;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+#thumb-05 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phyton {
+    display: flex;
+    flex-direction: column;
+    width: 325.6px;
+    height: 90px;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
